@@ -1,0 +1,27 @@
+{
+  "name": "react-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Project with React, TypeScript and Webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "test"
+  },
+  "author": "Donovan Isherwood",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
